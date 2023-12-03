@@ -3,7 +3,13 @@
     font-family: 'Courier New', Serif;
 }
 
-h1 {
+h1,
+.ingredients {
     background-color: green;
     color: red;
+}
+
+.ingredients {
+    color: blue;
+
 }
