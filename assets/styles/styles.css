@@ -1,17 +1,54 @@
 * {
     text-align: center;
     font-family: 'Courier New', Serif;
-    background-color: grey;
+    background-color: #00b4d8;
     list-style-position: inside;
+    color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1,
-.ingredients {
-    background-color: green;
-    color: red;
+.textbg {
+    background-color: #0077b6;
+    margin: 10px 35%;
+}
+.description {
+    margin: 1px;
 }
 
-.ingredients {
-    color: blue;
+.descriptiontext {
+    max-width: 300px;
+}
 
+.fooddesc {
+    display: inline-block;
+    margin: 0px 50px 15px 50px;
+}
+
+.nav {
+    margin: 25px auto;
+    box-sizing: content-box;
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: #03045e;
+    max-width: 80px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li {
+    
+}
+
+.nav:hover {
+    color: #0077b6;
+}
+
+img {
+    width: 300px;
+    height: 300px; 
+    margin: 15px 50px 0px 50px;
 }
