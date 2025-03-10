@@ -49,10 +49,12 @@ li {
 img {
     width: 300px;
     height: 300px; 
-    margin-right: 45px;
 }
 
 .flexcontainer1 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 45px;
 }
